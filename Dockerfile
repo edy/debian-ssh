@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:11-slim
 LABEL maintainer="Eduard Baun <eduard@baun.de>"
 
 RUN apt-get update && \
